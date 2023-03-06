@@ -1,0 +1,15 @@
+import numpy as np
+
+arr = np.array([['python', 'PHP', 'java', 'C++']])
+print("Original array:")
+print(arr)
+print("Capitalized:")
+print(np.char.capitalize(arr))
+print("Lowered:")
+print(np.char.lower(arr))
+print("Uppered:")
+print(np.char.upper(arr))
+print("Swapcased:")
+print(np.char.swapcase(arr))
+print("Titlecased:")
+print(np.char.title(arr))
