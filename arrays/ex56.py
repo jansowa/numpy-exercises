@@ -1,0 +1,10 @@
+import numpy as np
+x = np.zeros((3, 4))
+print("Shape", x.shape, ":")
+print(x)
+y = np.expand_dims(x, axis=1)
+print("Shape", y.shape, ":")
+print(y)
+z = np.expand_dims(y, axis=1)
+print("Shape", z.shape, ":")
+print(z)
